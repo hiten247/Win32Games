@@ -3,7 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35027.167
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine", "GameEngine\GameEngine.vcxproj", "{677EC2B3-BA98-419F-B41E-774C85483DCF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skeleton", "Skeleton\Skeleton.vcxproj", "{B71FCF74-3508-4163-A14C-AA26D1189F98}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Debug|x64.ActiveCfg = Debug|Win32
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Debug|x64.Build.0 = Debug|Win32
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Debug|x86.Build.0 = Debug|Win32
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Release|x64.ActiveCfg = Release|x64
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Release|x64.Build.0 = Release|x64
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Release|x86.ActiveCfg = Release|Win32
+		{677EC2B3-BA98-419F-B41E-774C85483DCF}.Release|x86.Build.0 = Release|Win32
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Debug|x64.ActiveCfg = Debug|x64
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Debug|x64.Build.0 = Debug|x64
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Debug|x86.ActiveCfg = Debug|Win32
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Debug|x86.Build.0 = Debug|Win32
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x64.ActiveCfg = Release|x64
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x64.Build.0 = Release|x64
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x86.ActiveCfg = Release|Win32
+		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
