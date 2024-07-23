@@ -31,7 +31,10 @@ void fnGameStart(HWND hWindow)
 void fnGameEnd()
 {
 	// clean up game engine
-	delete _pGame;
+	if (_pGame != NULL)
+		delete _pGame;
+
+	_pGame = NULL;
 }
 
 void fnGameActivate(HWND hWindow)

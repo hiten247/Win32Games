@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameEngine", "GameEngine\Ga
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Skeleton", "Skeleton\Skeleton.vcxproj", "{B71FCF74-3508-4163-A14C-AA26D1189F98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Trippy", "Trippy\Trippy.vcxproj", "{82E72DA0-0932-4A48-864D-5F6C44FA536C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x64.Build.0 = Release|x64
 		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x86.ActiveCfg = Release|Win32
 		{B71FCF74-3508-4163-A14C-AA26D1189F98}.Release|x86.Build.0 = Release|Win32
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Debug|x64.ActiveCfg = Debug|x64
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Debug|x64.Build.0 = Debug|x64
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Debug|x86.ActiveCfg = Debug|Win32
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Debug|x86.Build.0 = Debug|Win32
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Release|x64.ActiveCfg = Release|x64
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Release|x64.Build.0 = Release|x64
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Release|x86.ActiveCfg = Release|Win32
+		{82E72DA0-0932-4A48-864D-5F6C44FA536C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

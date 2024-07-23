@@ -21,7 +21,7 @@ class GameEngine
 {
 protected:
 	// Members
-	static GameEngine* m_pGameEngine;
+	static GameEngine*  m_pGameEngine;
 	HINSTANCE			m_hInstance;
 	HWND				m_hWindow;
 	TCHAR				m_szWindowClass[32];
@@ -39,7 +39,7 @@ public:
 	virtual ~GameEngine();
 
 	// General methods
-	static GameEngine* GetEngine() { return m_pGameEngine; }
+	static GameEngine*  GetEngine() { return m_pGameEngine; }
 	BOOL				Initialize(int iCmdShow);
 	LRESULT             HandleEvent(HWND hWindow, UINT msg, WPARAM wParam, LPARAM lParam);
 
