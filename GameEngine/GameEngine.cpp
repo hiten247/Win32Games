@@ -1,7 +1,7 @@
 //------------------------------------------------------------------------------
 // Include files
 //------------------------------------------------------------------------------
-#include <Windows.h>
+#include "Framework.h"
 #include "GameEngine.h"
 
 GameEngine* GameEngine::m_pGameEngine = NULL;
